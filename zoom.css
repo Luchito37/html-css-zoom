@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@200;600&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding: 15px;
+}
+
+.line-view, .line-arrow{
+    background-color: rgba(255,255,255,0.5);
+    border: solid 2px rgb(128 128 128);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.container-2{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 47px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: calc(1040px / 7);
+    height: 100px;
+    object-fit: cover;
+}
+
+.voice-member{
+    position: absolute;
+    transform: translate(-147px, 75px);
+    width: 100px;
+    background-color: rgb(51 49 49 / 56%);
+    border: solid 1px #47474775;
+    border-radius: 5px;
+}
+
+.container-3{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    gap: 10px;
+    height: 80px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.cont-microphone{
+    display: flex;
+    position: relative;
+}
+
+.microphone{
+    display: block;
+    padding-left: 14px;
+}
+
+.arrow-switch{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.space-camera{
+    padding-left: 20px;
+}
+
+.camera{
+    display: block;
+    padding-left: 30px;
+}
+
+.block{
+    display: block;
+    padding-left: 14px;
+}
+
+.menage{
+    padding-left: 65px;
+}
+
+.space-around{
+    padding-left: 15px;
+}
+
+.share{
+    color: rgb(78, 255, 47); 
+    padding-left: 40px;
+}
+
+.breakout{
+    padding-left: 50px;
+}
+
+.end-call{
+    background-color: red;
+    position: relative;
+    height: 22px;
+    border: solid 2px red;
+    border-radius: 5px;
+}
